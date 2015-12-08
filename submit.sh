@@ -5,7 +5,7 @@ then
 fi
 
 now="Rpp_$(date +"%Y_%m_%d__%H_%M_%S")"
-njobs=50
+njobs=200
 
 mkdir $now
 cp MinBiasPD_1_6.txt $now 

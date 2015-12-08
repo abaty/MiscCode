@@ -106,7 +106,7 @@ void countTracks(std::vector<std::string> inputFiles, int jobNum)
   {
     if(i%50000==0) std::cout << i<<"/"<<trkCh->GetEntries()<<std::endl;
     trkCh->GetEntry(i);
-    if(!MB) continue; 
+//    if(!MB) continue; 
     if(!NoiseFilter || !pVtx || !pBeamScrape) continue;
 
     //**************************************************
